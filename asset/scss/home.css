@@ -1,0 +1,154 @@
+.product-thumb .image {
+  -moz-text-align-last: center;
+       text-align-last: center;
+  border-bottom: 1px solid #ccc;
+}
+.product-thumb .title {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #ccc;
+}
+.product-thumb .title a {
+  color: black;
+}
+.product-thumb .description {
+  border-bottom: 1px solid #ccc;
+}
+.product-thumb .description li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-thumb .price {
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+}
+.product-thumb .price .price-new {
+  color: #cc0000;
+  font-weight: bold;
+  font-size: 24px;
+}
+.product-thumb .price .price-old {
+  text-decoration: line-through;
+  color: rgb(41, 41, 41);
+  font-size: 11px;
+}
+.product-thumb .button {
+  text-align: right;
+}
+.product-thumb .button .btn {
+  border-radius: 20px;
+}
+
+.card {
+  border-bottom: 1px solid #ccc;
+  margin: 20px;
+}
+.card a {
+  font-weight: bold;
+}
+
+.product {
+  width: 70%;
+}
+
+.pagination .page-link {
+  color: #cc0000;
+}
+.pagination .page-item.active .page-link {
+  border: none;
+  background-color: #cc0000;
+}
+
+.cart-icon i {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.testimonial p {
+  text-align: center;
+}
+
+.testimonial h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.testimonial-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.testimonial-col p {
+  font-size: 14px;
+}
+
+.testimonial-col {
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 30px whitesmoke;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.user img {
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.user-info .bi {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0c5851;
+}
+
+.user-info small {
+  color: #0c5851;
+}
+
+.testimonial-col:hover {
+  transform: translateY(7px);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(rgba(189, 110, 110, 0.5), rgb(55, 154, 194));
+  opacity: 0;
+  transition: 1s;
+}
+
+.fb {
+  padding-left: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner-bot {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}/*# sourceMappingURL=home.css.map */
