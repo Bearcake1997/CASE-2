@@ -1,12 +1,77 @@
-.contactForm {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.footer {
-    margin-top: 50px;
-}
+
+
 .fb {
     padding-left: 120px;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+}
+
+.section-title p {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.section-title h4 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+
+.contact {
+    background-image: url("https://3dcomputer.vn/uploads/images/slide/banner-danh-muc/pc-gaming.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.contact-form input,
+textarea {
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.contact:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(66, 65, 65, 0.863);
+    z-index: -2;
+    opacity: .85;
+}
+
+.contact-form input[type="submit"] {
+    background-color: dimgray;
+    border: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: rgb(219, 42, 42);
+}
+
+::placeholder {
+    color: white;
+}
+
+.tks {
+    font-size: 25px;
+}

@@ -1,4 +1,3 @@
-
 .product-thumb {
   .image {
     text-align-last: center;
@@ -145,18 +144,6 @@
   transform: translateY(7px);
 }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  border-radius: 7px;
-  cursor: pointer;
-  background: linear-gradient(rgba(189, 110, 110, 0.5), rgb(55, 154, 194));
-  opacity: 0;
-  transition: 1s;
-}
-
 .fb {
   padding-left: 120px;
   padding-top: 20px;
@@ -171,4 +158,23 @@
   opacity: 0;
   transform: translateX(-50%);
   transition: 1s;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#myBtn:hover {
+  background-color: rgb(11, 218, 149);
 }
